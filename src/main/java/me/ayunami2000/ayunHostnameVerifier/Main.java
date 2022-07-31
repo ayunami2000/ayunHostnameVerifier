@@ -40,7 +40,7 @@ public class Main extends JavaPlugin implements Listener {
     public void onPlayerLogin(PlayerLoginEvent event) {
         String hostname = event.getHostname();
         if (!includePort && hostname.contains(":")) {
-            hostname = hostname.substring(0, hostname.indexOf(':'));
+            hostname = hostname.substring(0, hostname.lastIndexOf(':'));
         }
         if (!this.hostnames.contains(hostname.toLowerCase())) {
             event.setKickMessage(this.kickMessage);
