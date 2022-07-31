@@ -1,0 +1,5 @@
+name: ayunHostnameVerifier
+author: ayunami2000
+version: 1.0
+main: me.ayunami2000.ayunHostnameVerifier.Main
+load: STARTUP

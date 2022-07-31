@@ -1,0 +1,7 @@
+.idea/
+lib/
+target/*
+!target/ayunHostnameVerifier-1.0-SNAPSHOT.jar
+ayun61cord.iml
+dependency-reduced-pom.xml
+run/

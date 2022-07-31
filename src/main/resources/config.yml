@@ -1,0 +1,7 @@
+# kick message
+message: 'Invalid hostname!'
+# also check connection port?
+port: true
+# list of whitelisted hostnames
+hostnames:
+  - 'localhost:25565'
